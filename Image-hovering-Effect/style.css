@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #ffff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.elem,
+.elem2,
+.elem3,
+.elem4,
+.elem5 {
+  height: 130px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.elem > h1,
+.elem2 > h1,
+.elem3 > h1,
+.elem4 > h1,
+.elem5 > h1 {
+  font-weight: 400;
+}
+
+.elem > img,
+.elem2 > img,
+.elem3 > img,
+.elem4 > img,
+.elem5 > img {
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  position: absolute;
+  display: none;
+  transition: all linear 0.02s;
+}

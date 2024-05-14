@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor {
+  height: 20px;
+  width: 20px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  transition: all linear 0.03s;
+}
